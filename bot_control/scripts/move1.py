@@ -89,23 +89,7 @@ def check_to_move(reg):
     msg.angular.z = angular_z
     pub.publish(msg)
     
-  
-  
-  #elif(reg['Front']>frnt_lim and reg['Left']>left_lim and reg['Right']>rt_lim and reg['Left']>reg['Right']) :
-    #print(reg['Right'],reg['Front'],reg['Left'])
-    #direction = 'Left 2'
-    #linear_x = 0.01
-    #angular_z = 60
-    #rospy.loginfo(direction) 
-    #msg.linear.x = linear_x
-    #msg.angular.z = angular_z
-    #pub.publish(msg)
-    
-  #elif(reg['Front']>frnt_lim and reg['Left']>left_lim and reg['Right']<rt_lim and reg['Front'] < reg['Left']):
-    #print(reg['Right'],reg['Front'],reg['Left'])
-    #direction = 'Left 2'
-    #linear_x = 0.01
-    #angular_z = 60
+
 
 
   else:
